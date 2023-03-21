@@ -1,3 +1,9 @@
+freeimage (3.18.0.1deepin) unstable; urgency=medium
+
+  * Regulate version name
+
+ -- Yutao Meng <mengyutao@uniontech.com>  Tue, 21 Mar 2023 17:07:41 +0800
+
 freeimage (3.18.0.1-deepin) stable; urgency=medium
 
   * ['Rebuild  against by  current gcc 11.2']
