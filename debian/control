@@ -8,14 +8,14 @@ Build-Depends: debhelper-compat (= 13),
                dos2unix,
                libjpeg-dev,
                libjxr-dev,
-               libopenexr-dev,
                libopenjp2-7-dev,
                libpng-dev,
                libraw-dev,
                libtiff-dev,
                libwebp-dev,
                pkg-config,
-               zlib1g-dev
+               zlib1g-dev,
+	       libilmbase-dev
 Build-Depends-Indep: doxygen
 Standards-Version: 4.2.1
 Homepage: http://freeimage.sourceforge.net/
