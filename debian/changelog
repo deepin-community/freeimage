@@ -1,3 +1,15 @@
+freeimage (3.18.0+ds2-10deepin1) unstable; urgency=medium
+
+  * Fix CVE-2025-70968: Use After Free in PluginTARGA.cpp loadRLE()
+    - Added bounds checking for remaining_size before cache allocation
+    - Changed loadRLE signature to use reference parameter (FIBITMAP*&)
+    - Origin: upstream r1860
+  * Fix CVE-2025-65803: Integer overflow in psdParser::ReadImageData
+    - Added size_t overflow check before memory allocation
+    - Added validation for nChannels * nHeight multiplication
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 17 Apr 2026 00:18:38 +0800
+
 freeimage (3.18.0+ds2-10deepin0) unstable; urgency=medium
 
   * No source change upload against GCC 12.
