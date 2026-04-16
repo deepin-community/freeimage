@@ -18,3 +18,5 @@ r1832-improved-BMP-plugin-when-working-with-malicious-images.patch
 r1836-improved-BMP-plugin-when-working-with-malicious-images.patch
 r1848-improved-PFM-plugin-against-malicious-images.patch
 r1877-improved-DDS-plugin-against-malicious-images.patch
+CVE-2025-70968.patch
+CVE-2025-65803.patch
